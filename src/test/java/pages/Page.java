@@ -2,7 +2,6 @@ package pages;
 
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -20,6 +19,7 @@ public class Page {
     protected WebDriver webDriver;
     private Logger LOG = Logger.getLogger(getClass());
     private static JSONObject credentials = JsonReader.getJsonObject("credentials.json");
+    private static JSONObject locators = JsonReader.getJsonObject("locators.json");
     private static String URL = (String) credentials.get("BASE_URL");
     private static String authUser = (String) credentials.get("AUTH_USER");
     private static String authPass = (String) credentials.get("AUTH_PASSWORD");

@@ -11,3 +11,56 @@
 2020-16-04 20:15:00   INFO [pages.LoginPage] : User with login: --Student-- logged in!
 2020-17-04 15:16:49   INFO [pages.LoginPage] : User with login: --Student-- logged in!
 2020-17-04 15:16:56   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 16:46:46   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 16:51:12   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:26:16   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:28:18   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:28:20   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:33:48   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:33:52   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:40:43   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:40:45   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:40:45   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 17:53:44   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:53:46   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:53:47   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 17:54:19   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:54:21   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:54:24   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 17:55:06   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 17:55:08   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 17:55:08   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 19:18:52   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:18:54   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:19:39   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:19:41   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:20:35   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:20:37   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:20:38   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table
+2020-17-04 19:21:42   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:21:44   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:21:45   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 19:22:27   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:22:29   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:22:30   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 19:24:09   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:24:12   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:24:14   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 19:24:31   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:24:32   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:24:33   INFO [pages.TransactionPartiesPage] : Record was deleted form TransactionParties table
+2020-17-04 19:24:50   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:24:52   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:24:54   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table
+2020-17-04 19:27:20   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:27:22   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:29:52   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table
+2020-17-04 19:30:38   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:30:40   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:30:41   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table
+2020-17-04 19:35:21   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:35:24   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:35:26   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table
+2020-17-04 19:35:57   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-17-04 19:35:59   INFO [pages.TransactionPartiesPage] : Record with name: Viktor, address: Kiev and phone: 0502501256 was added to TransactionParties table
+2020-17-04 19:36:01   INFO [pages.TransactionPartiesPage] : Record was updated in TransactionParties table

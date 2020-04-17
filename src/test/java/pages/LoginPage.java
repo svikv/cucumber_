@@ -26,7 +26,6 @@ public class LoginPage extends Page {
     }
 
     public void loginToPage(String user, String password){
-        webDriver.navigate().to(Page.getPageUrl());
         inputLoginName.sendKeys(user);
         inputPasswordName.sendKeys(password);
         submitButton.click();

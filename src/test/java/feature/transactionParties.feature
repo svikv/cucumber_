@@ -1,105 +1,35 @@
 @login
-Feature: User should be able to login
+Feature: User should be able to save, update and delete records from transaction Parties dictionary
 
   @final
-  Scenario: Login with  valid login
+  Scenario: User can save new record to dictionary
     Given user is on the home page
-    When user login with valid login
-    Then avatar should be on login screen
+    When user go to transaction Parties dictionary
+    And save new record to dictionary
+      | Name     | Address | Phone |
+      | Viktor      | Kiev     | 0502501256 |
+    Then user should see the added record in dictionary
 
-#  @final
-#  Scenario: Login with  wrong login
-#    Given user is on the login page
-#    When user login with wrong login
-#      | Login     | Password |
-#      | Lena      | 909090     |
-#    Then loginBox should be on login screen
+  @final
+  Scenario: User can delete a record from dictionary
+    Given user is on the home page
+    When user go to transaction Parties dictionary
+    And save new record to dictionary
+      | Name     | Address | Phone |
+      | Viktor      | Kiev     | 0502501256 |
+    Then user should see the added record in dictionary
+    And delete new record from dictionary
+    Then user should not see the record in dictionary
 
-
-
-
-
-
-#  loginPage.loginToPage(user, password);
-#  checkExpectedResult("Avatar is displayed", homePage.isAvatarDisplayed());
-#
-#  transactionParties.tableView();
-#  int rawsBefore = transactionParties.countTableRows();
-#  transactionParties.addTableRecord(name, address, phone);
-#  int rawsAfter = transactionParties.countTableRows();
-#  Assert.assertEquals(rawsBefore + 1, rawsAfter);
-#
-#  String actualRecord = transactionParties.getTableRecord(rawsAfter - 1);
-#  String expectedRecord = name + " " + address + " " + phone;
-#  Assert.assertTrue("Table record wasn't updated", actualRecord.contains(expectedRecord));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #Feature: github login
-#
-#  @q
-#  Scenario: login with  username and password in table
-#    Given user is on github homepage
-#    When user login to site
-#      | Login     | Password |
-#      | Lena      | pass     |
-#    Then user is displayed login screen
-#
-#
-#  @q
-#  Scenario: 2222ogin without username and password
-#    Given user is on github homepage
-#    When user input 1111 login to the login field
-#    When user input password password to the login field
-#    When user clicks on Sign in button
-#    Then user is displayed login screen
-#
-#
-#
-#  Scenario: 2111ogin without username and password
-#    Given user is on github homepage
-#    When user clicks on Sign in button
-#    Then user is displayed login screen
-#
-#  @ignore
-#  Scenario: 2333ogin without username and password
-#    Given user is on github homepage
-#    When user clicks on Sign in button
-#    Then user is displayed login screen
-
-
-#
-#
-#  @login
-#Feature: User is able to proceed with login
-#  In order to verify that login feature of shop works correctly
-#  As a shop user
-#  I should be able to login
-#
-#  @final @initial
-#  Scenario: User can access login form and login
-#    Given I am on the home page
-#    And element "b2b-claim" should not be in page code
-#    When I login as "private" user
-#    Then element "b2b-claim" should not be in page code
-#    And I click "user account dropdown" element
-#    And I should see "Kundennummer" text on the page
-
+  @final
+  Scenario: User can update a record from dictionary
+    Given user is on the home page
+    When user go to transaction Parties dictionary
+    And save new record to dictionary
+      | Name     | Address | Phone |
+      | Viktor      | Kiev     | 0502501256 |
+    Then user should see the added record in dictionary
+    And update new record from dictionary with values
+      | Name     | Address | Phone |
+      | Oleg      | Minsk     | 0505001020 |
+    Then user should see the updated record in dictionary
