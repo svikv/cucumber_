@@ -37,7 +37,6 @@ public class Login {
 
     @When("^user login with valid login$")
     public void user_login_with_valid_login() {
-
         String user = Page.getAuthUser().get("authUser");
         String password = Page.getAuthUser().get("authPass");
         loginPage.loginToPage(user, password);
@@ -56,6 +55,21 @@ public class Login {
 
     @Then("^loginBox should be on login screen$")
     public void loginBox_should_be_on_login_screen() {
+        general.checkExpectedResult("LoginBox isn't displayed", loginPage.isLoginBoxDisplayed());
+    }
+
+
+    @Given("^user is on the home page$")
+    public void user_is_on_the_home_page() {
+        driver.navigate().to(Page.getPageUrl());
+
+        String user = Page.getAuthUser().get("authUser");
+        String password = Page.getAuthUser().get("authPass");
+        loginPage = PageFactory.initElements(driver, LoginPage.class);
+        homePage = PageFactory.initElements(driver, HomePage.class);
+
+        loginPage.loginToPage(user, password);
+        general.checkExpectedResult("Avatar isn't displayed", homePage.isAvatarDisplayed());
     }
 
 }

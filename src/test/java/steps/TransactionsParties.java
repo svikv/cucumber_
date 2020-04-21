@@ -84,7 +84,7 @@ public class TransactionsParties {
 
     @Then("^user should see the updated record in dictionary$")
     public void user_should_see_the_updated_record_in_dictionary() {
-        String actualRecord = transactionParties.getTableRecord(rawsAfter - 2);
+        String actualRecord = transactionParties.getTableRecord(rawsAfter - 1);
         String expectedRecord = newName + " " + newAddress + " " + newPhone;
         Assert.assertTrue("Table record wasn't updated", actualRecord.contains(expectedRecord));
     }
