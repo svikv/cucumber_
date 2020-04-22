@@ -76,3 +76,118 @@
 2020-21-04 19:02:32   INFO [pages.LoginPage] : User with login: --Student-- logged in!
 2020-21-04 19:02:33   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
  
+2020-21-04 19:17:59   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:18:04   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:18:04   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:18:04   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:18:10   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:18:10   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:18:39   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:18:55   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:18:55   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:18:55   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:18:59   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:19:00   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:20:30   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:20:33   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:20:42   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:20:42   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:20:42   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:20:46   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:20:46   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:21:36   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:23:32   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:23:32   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:23:51   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:23:51   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:24:02   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:24:07   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:24:08   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:24:08   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:24:14   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:24:14   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:25:40   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:25:45   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:25:46   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:25:46   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:25:51   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:25:52   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:26:04   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:26:09   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:26:10   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:26:10   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:26:13   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:26:14   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:28:39   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:28:52   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:28:53   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:28:53   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:29:12   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:29:16   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:29:17   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:29:17   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:29:22   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:29:22   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-21-04 19:29:53   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-21-04 19:29:58   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:29:58   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-21-04 19:29:58   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-21-04 19:30:04   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-21-04 19:30:04   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 
+2020-22-04 09:12:12   INFO [utilities.HttpCaller] : GET request made to url: http://v3.test.itpmgroup.com
+2020-22-04 09:12:12   INFO [utilities.HttpCaller] : Response Code: 200
+2020-22-04 09:12:12   INFO [utilities.HttpCaller] : Response was not in JSON format!
+2020-22-04 09:12:12   INFO [steps.General] : --------- Scenario Login with valid login started -------- 
+ 
+2020-22-04 09:12:20   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-22-04 09:12:21   INFO [steps.General] : --------- Scenario Login with valid login finished -------- 
+ 
+2020-22-04 09:12:21   INFO [utilities.HttpCaller] : GET request made to url: http://v3.test.itpmgroup.com
+2020-22-04 09:12:21   INFO [utilities.HttpCaller] : Response Code: 200
+2020-22-04 09:12:21   INFO [utilities.HttpCaller] : Response was not in JSON format!
+2020-22-04 09:12:21   INFO [steps.General] : --------- Scenario Login with wrong login started -------- 
+ 
+2020-22-04 09:12:24   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-22-04 09:12:25   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
+ 

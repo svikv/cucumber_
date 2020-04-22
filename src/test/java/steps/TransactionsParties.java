@@ -88,4 +88,5 @@ public class TransactionsParties {
         String expectedRecord = newName + " " + newAddress + " " + newPhone;
         Assert.assertTrue("Table record wasn't updated", actualRecord.contains(expectedRecord));
     }
+
 }

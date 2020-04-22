@@ -2,6 +2,7 @@ package pages;
 
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
+import utilities.HttpCaller;
 import utilities.JsonReader;
 
 import java.util.HashMap;
@@ -118,9 +120,10 @@ public class Page {
         return string.length() > 1028 ? string.substring(0, max) : string;
     }
 
-//    public static void serverHealthCheck() {
-//        HttpCaller httpCaller = new HttpCaller();
-//        httpCaller.get(Page.getPageUrl());
-//        Assert.assertEquals("Server is not returning success load code 200!", 200, httpCaller.getResponseCode());
-//    }
+    // Checking the state of the server
+    public static void serverHealthCheck() {
+        HttpCaller httpCaller = new HttpCaller();
+        httpCaller.get(Page.getPageUrl());
+        Assert.assertEquals("Server is not returning success load code 200!", 200, httpCaller.getResponseCode());
+    }
 }

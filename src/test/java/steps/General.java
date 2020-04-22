@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.rules.TestName;
 import org.openqa.selenium.WebDriver;
+import pages.Page;
 import utilities.DriverBuilder;
 import utilities.Utils;
 
@@ -26,9 +27,11 @@ public class General {
 
     @Before
     public void setUp(Scenario scenario) throws Exception {
+
+        Page.serverHealthCheck();
         LOG.info("--------- Scenario "  + scenario.getName() + " started -------- \n ");
 
-        pathToScreenShot = "../somka/target/screenshot/" + this.getClass().getPackage().getName() +
+        pathToScreenShot = "../cucumber/target/screenshot/" + this.getClass().getPackage().getName() +
                 "/" + this.getClass().getSimpleName() + this.testName.getMethodName() + ".jpg";
 
         driver = driverBuilder.createDriver();

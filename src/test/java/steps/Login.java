@@ -58,7 +58,6 @@ public class Login {
         general.checkExpectedResult("LoginBox isn't displayed", loginPage.isLoginBoxDisplayed());
     }
 
-
     @Given("^user is on the home page$")
     public void user_is_on_the_home_page() {
         driver.navigate().to(Page.getPageUrl());
