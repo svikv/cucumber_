@@ -1,5 +1,5 @@
 @login
-Feature: User should be able to save, update and delete records from transaction Parties dictionary
+Feature: User is able to save, update and delete records from transaction Parties dictionary
 
   @final
   Scenario: User can save a new record to dictionary

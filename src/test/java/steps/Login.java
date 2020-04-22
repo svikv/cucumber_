@@ -26,46 +26,43 @@ public class Login {
     public Login() {
         driver = DriverBuilder.driver;
         loginPage = PageFactory.initElements(driver, LoginPage.class);
-        general = new General();
         homePage = PageFactory.initElements(driver, HomePage.class);
+        general = new General();
     }
 
     @Given("^user is on the login page$")
-    public void I_am_on_the_home_page() {
+    public void I_am_on_the_login_page() {
         driver.navigate().to(Page.getPageUrl());
     }
 
-    @When("^user login with valid login$")
-    public void user_login_with_valid_login() {
+    @When("^user login with valid credentials$")
+    public void user_login_with_valid_credentials() {
         String user = Page.getAuthUser().get("authUser");
         String password = Page.getAuthUser().get("authPass");
         loginPage.loginToPage(user, password);
     }
 
-    @Then("^avatar should be on login screen$")
-    public void avatar_should_be_on_login_screen() {
+    @Then("^avatar should be on the home page$")
+    public void avatar_should_be_on_the_home_page() {
         general.checkExpectedResult("Avatar isn't displayed", homePage.isAvatarDisplayed());
     }
 
-    @When("^user login with wrong login$")
-    public void user_login_with_wrong_login(DataTable arg) {
+    @When("^user login with wrong credentials$")
+    public void user_login_with_wrong_credentials(DataTable arg) {
         List<Map<String, String>> table = arg.asMaps(String.class, String.class);
         loginPage.loginToPage(table.get(0).get("Login"), table.get(0).get("Password"));
     }
 
-    @Then("^loginBox should be on login screen$")
-    public void loginBox_should_be_on_login_screen() {
+    @Then("^login form should be on the login page$")
+    public void login_form_should_be_on_the_login_page() {
         general.checkExpectedResult("LoginBox isn't displayed", loginPage.isLoginBoxDisplayed());
     }
 
     @Given("^user is on the home page$")
     public void user_is_on_the_home_page() {
         driver.navigate().to(Page.getPageUrl());
-
         String user = Page.getAuthUser().get("authUser");
         String password = Page.getAuthUser().get("authPass");
-        loginPage = PageFactory.initElements(driver, LoginPage.class);
-        homePage = PageFactory.initElements(driver, HomePage.class);
 
         loginPage.loginToPage(user, password);
         general.checkExpectedResult("Avatar isn't displayed", homePage.isAvatarDisplayed());

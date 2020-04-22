@@ -1,16 +1,16 @@
 @login
-Feature: User should be able to login
+Feature: User is able to login
 
   @final
-  Scenario: User should be redirected to homepage after login with valid login
+  Scenario: User should be redirected to the home page after login with valid credentials
     Given user is on the login page
-    When user login with valid login
-    Then avatar should be on login screen
+    When user login with valid credentials
+    Then avatar should be on the home page
 
-  @final
+  @final @negative
   Scenario: User can not login with wrong credentials
     Given user is on the login page
-    When user login with wrong login
+    When user login with wrong credentials
       | Login     | Password |
-      | Lena      | 909090     |
-    Then loginBox should be on login screen
+      | Lena      | 80808080     |
+    Then login form should be on the login page
