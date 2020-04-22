@@ -52,8 +52,8 @@ public class TransactionsParties {
         transactionParties.addTableRecord(name, address, phone);
     }
 
-    @Then("^user should see the added record in dictionary$")
-    public void user_should_see_the_added_record_in_dictionary() {
+    @Then("^user should see the record in dictionary$")
+    public void user_should_see_the_record_in_dictionary() {
         rawsAfter = transactionParties.countTableRows();
         Assert.assertEquals(rawsBefore + 1, rawsAfter);
 
