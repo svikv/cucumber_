@@ -191,3 +191,17 @@
 2020-22-04 09:12:24   INFO [pages.LoginPage] : User with login: --Student-- logged in!
 2020-22-04 09:12:25   INFO [steps.General] : --------- Scenario Login with wrong login finished -------- 
  
+2020-23-04 10:43:58   INFO [utilities.HttpCaller] : GET request made to url: http://v3.test.itpmgroup.com
+2020-23-04 10:43:58   INFO [utilities.HttpCaller] : Response Code: 200
+2020-23-04 10:43:58   INFO [utilities.HttpCaller] : Response was not in JSON format!
+2020-23-04 10:43:58   INFO [steps.General] : --------- Scenario User can save a new record to dictionary started -------- 
+ 
+2020-23-04 10:44:11   INFO [pages.LoginPage] : User with login: --Student-- logged in!
+2020-23-04 10:44:13   INFO [steps.General] : --------- Scenario User can save a new record to dictionary finished -------- 
+ 
+2020-23-04 10:49:47   INFO [utilities.HttpCaller] : GET request made to url: http://v3.test.itpmgroup.com
+2020-23-04 10:49:47   INFO [utilities.HttpCaller] : Response Code: 200
+2020-23-04 10:49:47   INFO [utilities.HttpCaller] : Response was not in JSON format!
+2020-23-04 10:49:47   INFO [steps.General] : --------- Scenario User can save a new record to dictionary started -------- 
+ 
+2020-23-04 10:49:52   INFO [pages.LoginPage] : User with login: --Student-- logged in!

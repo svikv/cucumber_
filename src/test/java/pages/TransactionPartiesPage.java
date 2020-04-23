@@ -92,4 +92,16 @@ public class TransactionPartiesPage extends Page {
         clickButton(createButton);
         LOG.info("Record with name: " + name + ", address: " + address + " and phone: " + phone + " was added to TransactionParties table");
     }
+
+    public void fillTableFields(String name, String address, String phone){
+        clickButton(addButton);
+        fillField(customerNameField, name);
+        fillField(customerAddressField, address);
+        fillField(customerPhoneField, phone);
+        clickButton(privatePersonCheckbox);
+    }
+
+    public void createTableRecord(){
+        clickButton(createButton);
+    }
 }

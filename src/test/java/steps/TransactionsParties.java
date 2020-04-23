@@ -36,14 +36,13 @@ public class TransactionsParties {
         general = new General();
     }
 
-    @When("^user go to transaction Parties dictionary$")
-    public void user_go_to_transaction_parties_dictionary() {
+    @When("^user switches to transaction Parties dictionary tab$")
+    public void user_switches_to_transaction_parties_dictionary_tab() {
         transactionParties.tableView();
     }
 
-    @And("^save new record to dictionary$")
-    public void save_new_record_to_dictionary(DataTable arg) {
-
+    @And("^saves new record to dictionary$")
+    public void saves_new_record_to_dictionary(DataTable arg) {
         rawsBefore = transactionParties.countTableRows();
         List<Map<String, String>> table = arg.asMaps(String.class, String.class);
         name = table.get(0).get("Name");
@@ -51,6 +50,28 @@ public class TransactionsParties {
         phone = table.get(0).get("Phone");
         transactionParties.addTableRecord(name, address, phone);
     }
+
+    @And("^fills in the following fields$")
+    public void fills_in_the_following_fields(DataTable arg) {
+        rawsBefore = transactionParties.countTableRows();
+        List<Map<String, String>> table = arg.asMaps(String.class, String.class);
+        name = table.get(0).get("Name");
+        address = table.get(0).get("Address");
+        phone = table.get(0).get("Phone");
+        transactionParties.fillTableFields(name, address, phone);
+    }
+
+    @And("^clicks on Create button$")
+    public void clicks_on_create_button() {
+        transactionParties.createTableRecord();
+    }
+
+
+
+
+
+
+
 
     @Then("^user should see the record in dictionary$")
     public void user_should_see_the_record_in_dictionary() {
@@ -62,8 +83,8 @@ public class TransactionsParties {
         Assert.assertTrue("Table record wasn't updated", actualRecord.contains(expectedRecord));
     }
 
-    @And("^delete new record from dictionary$")
-    public void delete_new_record_from_dictionary() {
+    @And("^user deletes new record from dictionary$")
+    public void user_deletes_new_record_from_dictionary() {
         transactionParties.deleteTableRecord(rawsAfter);
         rawsAfterDeleting = transactionParties.countTableRows();
     }
@@ -73,8 +94,8 @@ public class TransactionsParties {
         Assert.assertEquals("Record wasn't deleted from table", rawsAfter - 1, rawsAfterDeleting);
     }
 
-    @And("^update new record from dictionary with values$")
-    public void update_new_record_from_dictionary_with_values(DataTable arg) {
+    @And("^user updates new record from dictionary with values$")
+    public void user_updates_new_record_from_dictionary_with_values(DataTable arg) {
         List<Map<String, String>> table = arg.asMaps(String.class, String.class);
         newName = table.get(0).get("Name");
         newAddress = table.get(0).get("Address");
